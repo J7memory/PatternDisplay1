@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>qml;cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+    <Filter Include="PatternModule">
+      <UniqueIdentifier>{80acf26a-2f30-4072-b1de-542ea0bbe08c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LayerModule">
+      <UniqueIdentifier>{3a1da880-d4d8-4b40-ba0d-601cf3ed69de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LayerTypeConfigDialog">
+      <UniqueIdentifier>{1155dca2-d698-46f8-bbe2-3e44bb8c53c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LayerDrawDialog">
+      <UniqueIdentifier>{7b26a0b7-2cb4-4004-8cd7-3716cb27b523}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{7067260f-8494-4d52-bc46-06afdfc0cac7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="MainWindow.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtMoc Include="MainWindow.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <ClCompile Include="MainWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayWidget1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternManager.cpp">
+      <Filter>PatternModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Pattern.cpp">
+      <Filter>PatternModule</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="LayerDrawDialog.cpp">
+      <Filter>LayerDrawDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="MonoLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="GradientLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckerLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="CheckerLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="BitMapLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorGridWidget.cpp">
+      <Filter>LayerDrawDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircleLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="CRectLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="CCircleLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="LineLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="LineLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternDrawDialog.cpp">
+      <Filter>LayerDrawDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="DisplayWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureLayer.cpp">
+      <Filter>LayerModule</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureLayerConfigDialog.cpp">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="DisplayWidget.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="LayerDrawDialog.h">
+      <Filter>LayerDrawDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="MonoLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="GradientLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="CheckerLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="BitMapLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="ColorGridWidget.h">
+      <Filter>LayerDrawDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="CRectLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="CCircleLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="LineLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="PatternDrawDialog.h">
+      <Filter>LayerDrawDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="TextLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+    <QtMoc Include="PictureLayerConfigDialog.h">
+      <Filter>LayerTypeConfigDialog</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Pattern.h">
+      <Filter>PatternModule</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternManager.h">
+      <Filter>PatternModule</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="MonoLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="GradientLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="CheckerLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="BitMapLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="CCircleLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="CRectLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="LineLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureLayer.h">
+      <Filter>LayerModule</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Resource.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="appicon.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

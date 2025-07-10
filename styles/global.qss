@@ -1,0 +1,118 @@
+* {
+    font-size: 9pt;
+    font-family: "Microsoft YaHei UI", "微软雅黑", sans-serif;
+    font-weight: 550;  /* 适度加粗 */
+}
+
+/* QTabWidget 样式 */
+QTabWidget::pane {
+    border-radius: 0px;
+    margin: 0px;                /* 去除外边距 */
+    padding: 0px;               /* 去除内边距 */
+    background-color: #ffffff;
+}
+
+QTabBar::tab {
+    background: #e0e0e0;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 3px 3px;
+    color: #333;
+    font-weight: bold;
+}
+
+QTabBar::tab:selected {
+    background: #ffffff;
+    border-bottom-color: transparent;
+}
+
+QWidget {
+        color: #333;
+}
+
+QPushButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-radius: 4px;
+}
+
+QPushButton:hover {
+    background-color: #45a049;
+}
+
+QListWidget {
+    background: white;
+    border: none;
+}
+
+QListWidget::item {
+    background-color: #e0f0ff;
+    height: 35px;
+}
+
+QListWidget::item:selected {
+    background-color: #66b3ff;
+    color: white;
+}
+
+QListWidget::item:hover {
+    background-color: #99d1ff;
+}
+
+/* QLineEdit 样式 */
+QLineEdit {
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    padding: 4px;
+    min-height: 18px;  /* 设置最小高度 */
+    background: #ffffff;
+    selection-background-color: #cce7ff;
+    align-self: center; /* 确保 QLineEdit 在项内居中 */
+}
+
+/* QSpinBox 样式 */
+QSpinBox {
+    padding: 0px 4px;
+    border: 1px solid #b0b0b0;
+    border-radius: 2px;
+    background-color: #fafafa;
+    selection-background-color: #d0eaff;
+    min-height: 24px;
+}
+
+/* QCheckBox 样式 */
+QCheckBox {
+    spacing: 6px;
+    font: 14px "Segoe UI", sans-serif;
+    color: #333;
+}
+
+/* QComboBox 样式 */
+QComboBox {
+    padding: 2px 4px;
+    border: 1px solid #b0b0b0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    min-height: 24px;
+}
+
+/* QComboBox弹出列表 */
+QComboBox QAbstractItemView {
+    border: 1px solid #b0b0b0;
+    selection-background-color: #d0eaff;
+    background-color: #ffffff;
+}
+
+/* QTextEdit 样式 */
+QTextEdit {
+    border: 1px solid #b0b0b0;
+    border-radius: 4px;
+    padding: 6px;
+    background-color: #ffffff;
+    font: 14px "Consolas", monospace;
+    color: #333;
+}
+

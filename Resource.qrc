@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/translations">
+        <file>translations/zh_CN.qm</file>
+        <file>translations/en_US.qm</file>
+    </qresource>
+    <qresource prefix="/icons">
+        <file>cc.ico</file>
+    </qresource>
+    <qresource prefix="/styles">
+        <file>styles/global.qss</file>
+    </qresource>
+</RCC>
